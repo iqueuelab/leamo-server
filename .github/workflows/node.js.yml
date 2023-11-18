@@ -7,7 +7,8 @@ on:
   push:
     branches: ["main"]
 
-env: PORT:3001
+env:
+  PORT:3001
   MongoURI:mongodb+srv://leamo:9togngXR1ERQJ6Co@leamo0.oegh5bz.mongodb.net/?retryWrites=true&w=majority
 
 jobs:
